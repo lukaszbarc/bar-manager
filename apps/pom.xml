@@ -2,21 +2,22 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <groupId>pl.agileit</groupId>
-        <artifactId>bar-manager-components</artifactId>
+        <artifactId>bar-manager-main</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>pl.agileit</groupId>
-    <artifactId>bar-manager-employee-management</artifactId>
+    <artifactId>bar-manager-apps</artifactId>
     <packaging>pom</packaging>
 
-    <name>bar-manager-employee-management</name>
+    <name>bar-manager-apps</name>
 
     <version>0.0.1-SNAPSHOT</version>
 
+
     <modules>
-        <module>employee-management-core</module>
+        <module>backend-main</module>
     </modules>
 
 
