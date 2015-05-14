@@ -8,10 +8,10 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>pl.agileit</groupId>
-    <artifactId>bar-manager-employee-management-core</artifactId>
+    <artifactId>bar-manager-employee-management-service-impl</artifactId>
     <packaging>jar</packaging>
 
-    <name>bar-manager-employee-management-core</name>
+    <name>bar-manager-employee-management-service-impl</name>
 
     <version>0.0.1-SNAPSHOT</version>
 
@@ -19,20 +19,24 @@
     <dependencies>
         <dependency>
             <groupId>pl.agileit</groupId>
+            <artifactId>bar-manager-employee-management-dto</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>pl.agileit</groupId>
             <artifactId>bar-manager-employee-management-model</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>pl.agileit</groupId>
+            <artifactId>bar-manager-employee-management-service-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>pl.agileit</groupId>
+            <artifactId>bar-manager-employee-management-dao-api</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
         </dependency>
 
         <dependency>
@@ -51,13 +55,14 @@
         </dependency>
 
         <dependency>
-            <groupId>javax.ws.rs</groupId>
-            <artifactId>javax.ws.rs-api</artifactId>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <scope>test</scope>
         </dependency>
 
         <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
             <scope>test</scope>
         </dependency>
     </dependencies>

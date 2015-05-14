@@ -1,0 +1,34 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>pl.agileit</groupId>
+        <artifactId>bar-manager-employee-management</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>pl.agileit</groupId>
+    <artifactId>bar-manager-employee-management-resource-impl</artifactId>
+    <packaging>jar</packaging>
+
+    <name>bar-manager-employee-management-resource-impl</name>
+
+    <version>0.0.1-SNAPSHOT</version>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>pl.agileit</groupId>
+            <artifactId>bar-manager-employee-management-model</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>pl.agileit</groupId>
+            <artifactId>bar-manager-employee-management-resource-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>pl.agileit</groupId>
+            <artifactId>bar-manager-employee-management-service-api</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

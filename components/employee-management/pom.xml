@@ -16,8 +16,14 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <modules>
-        <module>employee-management-core</module>
+        <module>employee-management-dto</module>
         <module>employee-management-model</module>
+        <module>employee-management-dao-api</module>
+        <module>employee-management-dao-impl</module>
+        <module>employee-management-service-api</module>
+        <module>employee-management-service-impl</module>
+        <module>employee-management-resource-api</module>
+        <module>employee-management-resource-impl</module>
     </modules>
 
 
