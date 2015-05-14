@@ -6,6 +6,8 @@ import pl.agileit.bar.employee.model.Employee;
 import java.util.List;
 
 public class EmployeeDAOImpl implements EmployeeDAO {
+
+
     @Override
     public long save(Employee employee) {
         return 0;

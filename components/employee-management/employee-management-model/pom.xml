@@ -2,23 +2,25 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <groupId>pl.agileit</groupId>
-        <artifactId>bar-manager-components</artifactId>
+        <artifactId>bar-manager-employee-management</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>pl.agileit</groupId>
-    <artifactId>bar-manager-employee-management</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>bar-manager-employee-management-model</artifactId>
+    <packaging>jar</packaging>
 
-    <name>bar-manager-employee-management</name>
+    <name>bar-manager-employee-management-model</name>
 
     <version>0.0.1-SNAPSHOT</version>
 
-    <modules>
-        <module>employee-management-core</module>
-        <module>employee-management-model</module>
-    </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
